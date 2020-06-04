@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    background-image: url(fundo-banner-png4.png);
+}
+
+#conteudo{
+    margin: 0 auto;
+    padding: 110px;
+    width: 750px;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgba(120, 85, 218, 0.63);
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+#conteudo h1{
+    padding: 110px 0 0 0;
+    text-align: center;
+    text-shadow: 0.05em 0.1em 0.1em black;
+}
+
+#conteudo p{
+    text-align: justify;
+    padding: 10px;
+    text-justify: newspaper;
+}
+
+#menu{
+    padding: 2px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(81, 111, 241);
+}
+
+#menu ul li{
+    padding: 35px;
+    display: inline;
+}
+
+#menu ul li a{
+    padding: 18px;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+#menu ul li :hover{
+    color: rgb(47, 0, 255);
+    background: white;
+    text-shadow: 0.1em 0.1em 0.4em black;
+}
+
+#menu li ul :hover{
+    background-color: white;
+}
+
+#banner{
+    text-align: center;
+}
+
+#cont-banner{
+    position: relative;
+    bottom: 135px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 30pt;
+
+}
+
+#news_1_texto{
+    position: relative;
+    padding: 0 0 105px 10px;
+    text-shadow: 0.05em 0.1em 0.1em black;
+    width: 300px;
+    height: 100px;
+    bottom: 10px;
+    text-align: justify;
+}
+
+#news_1_imagem{
+    position: relative;
+    left: 525px;
+    bottom: 213px;
+}
+
+#news_1 #news_1_texto #news_1_imagem img{
+    border-radius: 10px;
+}
+
+#news_1 #news_1_texto h3{
+    text-shadow: 0.05em 0.1em 0.1em black;
+}
+
+#news_1{
+    padding: 10px 0 0 0;
+    border: 1px solid rgb(74, 50, 182);
+    border-radius: 10px;
+    width: auto;
+}
+
+#news_1 #news_1_texto a{
+    text-decoration: none;
+    color: rgb(0, 255, 0);
+}
+
+#news_2_texto{
+    position: relative;
+    padding: 0 0 105px 10px;
+    text-shadow: 0.05em 0.1em 0.1em black;
+    width: 300px;
+    height: 100px;
+    bottom: 10px;
+    text-align: justify;
+}
+
+#news_2_imagem{
+    position: relative;
+    left: 525px;
+    bottom: 195px;
+}
+
+#news_2 #news_2_texto #news_2_imagem img{
+    border-radius: 10px;
+}
+
+#news_2 #news_2_texto h3{
+    text-shadow: 0.05em 0.1em 0.1em black;
+}
+
+#news_2{
+    border: 1px solid rgb(74, 50, 182);
+    border-radius: 10px;
+    width: auto;
+}
+
+#news_2 #news_2_texto a{
+    text-decoration: none;
+    color: rgb(0, 255, 0);
+}
+
