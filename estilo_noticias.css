@@ -22,6 +22,10 @@ body{
     text-shadow: 0.05em 0.1em 0.1em black;
 }
 
+#conteudo h2{
+    padding: 30px 0 30px 0;
+}
+
 #conteudo p{
     text-align: justify;
     padding: 10px;
@@ -70,74 +74,70 @@ body{
 
 }
 
-#news_1_texto{
-    position: relative;
-    padding: 0 0 105px 10px;
-    text-shadow: 0.05em 0.1em 0.1em black;
-    width: 300px;
-    height: 100px;
-    bottom: 10px;
-    text-align: justify;
-}
-
-#news_1_imagem{
-    position: relative;
-    left: 525px;
-    bottom: 213px;
-}
-
-#news_1 #news_1_texto #news_1_imagem img{
+#pais{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgba(109, 60, 243, 0.452);
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    font-size: 15pt;
     border-radius: 10px;
+    border: 1px solid rgb(81, 111, 241);
+    position: relative;
+    left: 57px;
 }
 
-#news_1 #news_1_texto h3{
+#interesses{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgba(109, 60, 243, 0.452);
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    font-size: 15pt;
+    border-radius: 10px;
+    border: 1px solid rgb(81, 111, 241);
+}
+
+#div_interesses{
+    padding: 40px 0 0 0;
+}
+
+#div_interesses b{
+    font-size: 16pt;
     text-shadow: 0.05em 0.1em 0.1em black;
 }
 
-#news_1{
-    padding: 10px 0 0 0;
-    border: 1px solid rgb(74, 50, 182);
-    border-radius: 10px;
-    width: auto;
+#div_pais b{
+    font-size: 16pt;
+    text-shadow: 0.05em 0.1em 0.1em black;
 }
 
-#news_1 #news_1_texto a{
+#pesquisar button{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20pt;
+    position: relative;
+    left: 420px;
+    bottom: 120px;
+    padding: 50px 20px 50px 20px;
+    border-radius: 20px;
+    border-style: inherit;
+    border: 1px solid rgb(81, 111, 241);
+    background-color: rgba(68, 0, 255, 0.425);
+    color: rgb(255, 255, 255);
+
+}
+
+#pesquisar a{
     text-decoration: none;
-    color: rgb(0, 255, 0);
+    color: rgb(255, 255, 255);
+    background-color: rgb(81, 111, 241);
+    border-radius: 20px;
+    padding: 35px;
+
 }
 
-#news_2_texto{
-    position: relative;
-    padding: 0 0 105px 10px;
-    text-shadow: 0.05em 0.1em 0.1em black;
-    width: 300px;
-    height: 100px;
-    bottom: 10px;
-    text-align: justify;
+#pesquisar :hover{
+    color: rgba(46, 0, 173, 0.623);
+    font-style: normal;
+    font-size: 20pt;
 }
 
-#news_2_imagem{
-    position: relative;
-    left: 525px;
-    bottom: 195px;
-}
-
-#news_2 #news_2_texto #news_2_imagem img{
-    border-radius: 10px;
-}
-
-#news_2 #news_2_texto h3{
-    text-shadow: 0.05em 0.1em 0.1em black;
-}
-
-#news_2{
-    border: 1px solid rgb(74, 50, 182);
-    border-radius: 10px;
-    width: auto;
-}
-
-#news_2 #news_2_texto a{
-    text-decoration: none;
-    color: rgb(0, 255, 0);
-}
 
