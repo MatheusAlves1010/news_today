@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link href="estilo_noticias.css" rel="stylesheet">
+        <script language="javascript" src="script.js"></script>
         <title>News Today</title>
     </head>
     <body>
@@ -26,34 +27,33 @@
             <h2>Faça uma pesquisa personalizada das notícias</h2>
             <div id="div_pais">
                 <b>País:</b>
-                <select name="pais" id="pais">
+                <select name="pais" id="paises">
                     <option selected="selected">Escolha um país</option>
-                    <option>Brasil</option>
-                    <option>Alemanha</option>
-                    <option>Argentina</option>
-                    <option>Estados Unidos</option>
-                    <option>Japão</option>
-                    <option>Rússia</option>
-                    <option>Suíça</option>
-                    <option>França</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="alemanha">Alemanha</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="estados_unidos">Estados Unidos</option>
+                    <option value="japao">Japão</option>
+                    <option value="russia">Rússia</option>
+                    <option value="suica">Suíça</option>
+                    <option value="franca">França</option>
                 </select>
             </div>
             <div id="div_interesses">
                 <b>Interesses:</b>
                 <select name="interesses" id="interesses">
                     <option selected="selected">Escolha um interesse</option>
-                    <option>Esportes</option>
-                    <option>Tecnologia</option>
-                    <option>Gastronomia</option>
-                    <option>Ciência</option>
-                    <option>Entretenimento</option>
-                    <option>Novela</option>
-                    <option>Astronomia</option>
-                    <option>Cú</option>
+                    <option value="esportes">Esportes</option>
+                    <option value="tecnologia">Tecnologia</option>
+                    <option value="gastronomia">Gastronomia</option>
+                    <option value="ciencia">Ciência</option>
+                    <option value="entretenimento">Entretenimento</option>
+                    <option value="novela">Novela</option>
+                    <option value="astronomia">Astronomia</option>
                 </select>
             </div>
             <div id="pesquisar">
-                <button><a href="resultado_noticia.html">Pesquisar</a></button>
+                <button id="pesquisar" onclick="pesquisar()">Pesquisar</button>
 
             </div>
         </div>
