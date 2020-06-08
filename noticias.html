@@ -28,32 +28,34 @@
             </nav>
             <h1>Notícias de todo o mundo</h1>
             <h2>Faça uma pesquisa personalizada das notícias</h2>
-            <div id="div_pais">
-                <b>País:</b>
-                <select name="pais" id="paises" onBlur="vazio1()">
-                    <option selected="selected">Escolha um país</option>
-                    <option value="brasil">Brasil</option>
-                    <option value="alemanha">Alemanha</option>
-                    <option value="argentina">Argentina</option>
-                    <option value="estados_unidos">Estados Unidos</option>
-                    <option value="japao">Japão</option>
-                    <option value="russia">Rússia</option>
-                    <option value="suica">Suíça</option>
-                    <option value="franca">França</option>
-                </select>
-            </div>
-            <div id="div_interesses">
-                <b>Interesses:</b>
-                <select name="interesses" id="interesses" onBlur="vazio2()">
-                    <option selected="selected">Escolha um interesse</option>
-                    <option value="esportes">Esportes</option>
-                    <option value="tecnologia">Tecnologia</option>
-                    <option value="gastronomia">Gastronomia</option>
-                    <option value="ciencia">Ciência</option>
-                    <option value="entretenimento">Entretenimento</option>
-                    <option value="novela">Novela</option>
-                    <option value="astronomia">Astronomia</option>
-                </select>
+            <div id="escolhas">
+                <div id="div_pais">
+                    <b>País:</b>
+                    <select name="pais" id="paises" onBlur="vazio1()">
+                        <option selected="selected">Escolha um país</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="alemanha">Alemanha</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="estados_unidos">Estados Unidos</option>
+                        <option value="japao">Japão</option>
+                        <option value="russia">Rússia</option>
+                        <option value="suica">Suíça</option>
+                        <option value="franca">França</option>
+                    </select>
+                </div>
+                <div id="div_interesses">
+                    <b>Interesses:</b>
+                    <select name="interesses" id="interesses" onBlur="vazio2()">
+                        <option selected="selected">Escolha um interesse</option>
+                        <option value="esportes">Esportes</option>
+                        <option value="tecnologia">Tecnologia</option>
+                        <option value="gastronomia">Gastronomia</option>
+                        <option value="ciencia">Ciência</option>
+                        <option value="entretenimento">Entretenimento</option>
+                        <option value="novela">Novela</option>
+                        <option value="astronomia">Astronomia</option>
+                    </select>
+                </div>
             </div>
             <div id="pesquisar">
                 <button id="verificar" onclick="verificar()">Pesquisar</button>
