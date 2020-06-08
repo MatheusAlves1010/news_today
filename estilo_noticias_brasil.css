@@ -37,7 +37,7 @@ body{
     display: inline;
     color: rgb(0, 255, 42);
     font-size: 18pt;
-    padding: 25px;
+    padding: 15px;
 }
 
 #menu ul li a{ 
@@ -45,8 +45,6 @@ body{
     color: rgb(18, 230, 53);
     text-decoration: none;
     font-style: unset;
-
-
 }
 
 #menu ul li :hover{
@@ -110,6 +108,29 @@ p{
     color: white;
     font-size: 14pt;
     text-shadow: 0.1em 0.1em 0.4em black;
+}
+
+footer{
+    background-color: rgb(45, 65, 45);
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(255, 255, 255);
+}
+
+footer ul{
+    text-align: center;
+}
+
+footer ul li{
+    display: inline;
+    padding: 20px;
+    font-size: 15pt;
+}
+
+footer ul li a{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 
