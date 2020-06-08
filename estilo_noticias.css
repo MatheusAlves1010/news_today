@@ -60,10 +60,6 @@ body{
     text-shadow: 0.1em 0.1em 0.4em black;
 }
 
-#banner{
-    text-align: center;
-}
-
 #cont-banner{
     position: relative;
     bottom: 135px;
@@ -84,8 +80,8 @@ body{
 }
 
 #div_pais{
-    float: left;
-    padding: 70px 0 50px 50px;
+    padding: 30px;
+    text-align: center;
 
 }
 
@@ -100,8 +96,8 @@ body{
 }
 
 #div_interesses{
-    text-align: right;
-    padding: 70px 50px 50px 0;
+    padding: 30px;
+    text-align: center;
 }
 
 #div_interesses b{
