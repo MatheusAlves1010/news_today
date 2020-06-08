@@ -81,12 +81,12 @@ body{
     font-size: 15pt;
     border-radius: 10px;
     border: 1px solid rgb(255, 255, 255);
-    position: relative;
-    left: 57px;
 }
 
 #div_pais{
-    padding: 70px;
+    float: left;
+    padding: 70px 0 50px 50px;
+
 }
 
 #interesses{
@@ -100,7 +100,8 @@ body{
 }
 
 #div_interesses{
-    padding: 50px;
+    text-align: right;
+    padding: 70px 50px 50px 0;
 }
 
 #div_interesses b{
@@ -113,13 +114,10 @@ body{
     text-shadow: 0.05em 0.1em 0.1em black;
 }
 
-#pesquisar button{
+#verificar{
     font-family: 'Ubuntu', sans-serif;
     font-size: 20pt;
-    position: relative;
-    left: 550px;
-    bottom: 200px;
-    padding: 50px 20px 50px 20px;
+    padding: 20px 50px 20px 50px;
     border-radius: 20px;
     border-style: inherit;
     border: 1px solid rgb(255, 255, 255);
@@ -128,7 +126,7 @@ body{
 
 }
 
-#pesquisar a{
+#verificar a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     border-radius: 20px;
@@ -136,10 +134,15 @@ body{
 
 }
 
-#pesquisar :hover{
+#verificar :hover{
     background-color: rgb(69, 102, 72);
     font-style: normal;
     font-size: 20pt;
+}
+
+#pesquisar{
+    padding: 50px;
+    text-align: center;
 }
 
 
