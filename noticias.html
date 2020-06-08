@@ -30,7 +30,7 @@
             <h2>Faça uma pesquisa personalizada das notícias</h2>
             <div id="div_pais">
                 <b>País:</b>
-                <select name="pais" id="paises">
+                <select name="pais" id="paises" onBlur="vazio1()">
                     <option selected="selected">Escolha um país</option>
                     <option value="brasil">Brasil</option>
                     <option value="alemanha">Alemanha</option>
@@ -44,7 +44,7 @@
             </div>
             <div id="div_interesses">
                 <b>Interesses:</b>
-                <select name="interesses" id="interesses">
+                <select name="interesses" id="interesses" onBlur="vazio2()">
                     <option selected="selected">Escolha um interesse</option>
                     <option value="esportes">Esportes</option>
                     <option value="tecnologia">Tecnologia</option>
@@ -56,7 +56,7 @@
                 </select>
             </div>
             <div id="pesquisar">
-                <button id="pesquisar" onclick="pesquisar()">Pesquisar</button>
+                <button id="pesquisar" onclick="verificar()">Pesquisar</button>
 
             </div>
         </div>
