@@ -40,6 +40,6 @@ function ler_noticia(news_id){
 	var url  = window.location.href;
     var page = url.split('/');
 	var page = page[page.length-1];
-	var resultado = page.substring(14, 0);
-	window.location.href = resultado + news_id.id + ".html";
+	var res = page.split('.')[0];
+	window.location.href = res + news_id.id + ".html";
 }
